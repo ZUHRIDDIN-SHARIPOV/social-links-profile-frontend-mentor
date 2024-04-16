@@ -37,6 +37,7 @@ html {
 
 body {
   margin: 0;
+  background: #141414;
 }
 
 ul,
@@ -73,4 +74,96 @@ img {
   width: 100%;
   height: auto;
   display: inline-block;
+}
+
+.hero__block {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  background: #1f1f1f;
+}
+
+.hero__content-img {
+  width: 88px;
+  display: inline-block;
+}
+.hero__content-img img {
+  border-radius: 999px;
+}
+
+.hero__content-title {
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+
+.hero__content-location {
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  color: #c4f82a;
+}
+
+.hero__content-description {
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 14px;
+  color: #fff;
+  margin: 24px 0;
+}
+
+.hero__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 16px;
+}
+
+.hero__item {
+  padding: 12px;
+  border-radius: 8px;
+  background: #333;
+}
+.hero__item:hover {
+  background: #c4f82a;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.hero__item:hover .hero__item-link {
+  color: #333;
+}
+
+.hero__item-link {
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero__block {
+    margin: 116px 0;
+    padding: 24px;
+  }
+  .container {
+    padding: 0 24px;
+  }
 }/*# sourceMappingURL=main.css.map */
